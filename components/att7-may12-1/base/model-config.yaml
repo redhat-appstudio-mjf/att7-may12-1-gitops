@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: att7-may12-1-model-config
+data:
+  MODEL_ENDPOINT: "http://att7-may12-1-model-server:8001"
